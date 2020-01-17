@@ -16,7 +16,8 @@ This parameter controls the accumulating error. Addition of this term reduces th
 This parameter controls the rate of change of error. Addition of this term reduces the oscillation in  the system. With derivative control, the control signal can become large if the error begins sloping upward, even while the magnitude of the error is still relatively small. This anticipation tends to add damping to the system, thereby decreasing overshoot.
 
 Values for Kp, Ki, Kd selected using trail and error method. In this method, first we have to set Ki and Kd values to zero and increase proportional term (Kp) until system reaches to oscillating behavior. Then Kd was tuned to reduced oscillation and then Ki to reduce steady-state error
-The final parameters for my controllers are: 
+The final parameters for my controllers are:
+
 |   | Steering  | Speed  |
 |---|---|---|
 | Kp  |  0.135 |  0.2 |
